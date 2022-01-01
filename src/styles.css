@@ -1,0 +1,30 @@
+.container {
+  margin: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  margin-top: 10px;
+  color: gold;
+}
+
+.chart-container {
+  width: 80%;
+  height: 100%;
+}
+
+.currency-select {
+  background-color: black;
+  color: gold;
+  width: 10%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 5pt 1pt gold;
+}
